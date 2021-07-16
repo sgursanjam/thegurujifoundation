@@ -1,0 +1,43 @@
+@media only screen and (max-width:990px) { 
+	.header_area .social{text-align: inherit;}
+	.main_header.sticky_menu{padding: 15px 0}
+	.single-slide-item h1{font-size: 40px; line-height: 35px;}
+	.about_box{margin-bottom: 30px;}
+	.count{padding: 20px 0; margin-bottom: 30px;}
+	.single_team{margin-bottom: 30px;}
+	.pricingTable{margin-bottom: 20px;}
+	.post-slide{margin-bottom: 30px;}
+	.single_footer{margin-bottom: 30px;}
+	.navbar-default .navbar-nav > li > a{bottom: 0px; font-size: 12px;}	
+	.navbar-default .navbar-nav>.active>a{bottom: 0px;}
+	.navbar-brand p{font-size: 20px;}
+	.navbar-default{padding: 10px 0;}
+}
+@media only screen and (max-width:767px) { 
+	.main_header.sticky_menu{padding: 0px 0}
+	.navbar-default .navbar-nav > li > a {color: #fff; bottom: 25px;}
+	.navbar-default .navbar-nav > li > a{bottom: 25px;}	
+	.navbar-default .navbar-nav>.active>a{bottom: 25px;}
+	.navbar-default .navbar-toggle {color: #35AC39; bottom: 1px;}
+	nav#navbar{background: #000 none repeat scroll 0 0; border: none; padding-bottom: 15px;padding-right: 15px;padding-top: 15px;position: absolute; right: 15px;text-align: center;top: 30px;width: 280px;}
+	.carousel-control{display: none;}
+	.go_bottom{display: none;}
+	.single-slide-item h1{
+		font-size: 24px;
+		line-height: 30px;
+	}
+	.single-slide-item p{font-size: 14px;}
+	.single_about{margin-bottom: 30px;}
+	.single_overview img{margin-bottom: 30px;}
+}
+@media only screen and (max-width: 767px) (min-height: 400px){ 
+	nav{
+		overflow-y: scroll;
+		position: fixed;
+		top: 88px;
+		bottom: 0px;
+	}
+}
+@media (max-width:320px){
+	.carousel-control{display: none;}
+}
